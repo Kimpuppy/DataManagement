@@ -10,9 +10,12 @@ using LitJson;
 
 public class DataManagement
 {
+    #region Private Properties
     private static readonly string KEY = "DataManagement_KEY";
     private static readonly string IV = "DataManagement_IV";
+    #endregion
 
+    #region DataManage Method
     public static void SaveData<T>(string dataname, T data)
     {
         // Convert data to JSON
@@ -55,7 +58,9 @@ public class DataManagement
         if(File.Exists(Application.persistentDataPath + "/" + dataname + ".json"))
             File.Delete(Application.persistentDataPath + "/" + dataname + ".json");
     }
+    #endregion
 
+    #region Encryption/Decryption Method
     public static Rfc2898DeriveBytes MakeKey(string password)
     {
         byte[] keyBytes = System.Text.Encoding.UTF8.GetBytes(password);
@@ -155,4 +160,5 @@ public class DataManagement
 
         return plainString;
     }
+    #endregion
 }
