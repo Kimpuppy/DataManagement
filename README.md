@@ -9,14 +9,23 @@ class DataClass
 {
     int properties;
 };
+```
+> **Add Custom Data Class**
 
+```csharp
 private DataClass Data;
+```
+> **Create Data Properties**
 
+```csharp
 public void SaveData()
 {
     DataManagement.SaveData<DataClass>("PlayerData", Data);
 }
+```
+> Using `DataManagement.SaveData<T>()` to **Create Custom Save Method**
 
+```csharp
 public bool LoadData()
 {
     if(!DataManagement.LoadData<DataClass>("PlayerData", ref Data))
@@ -38,3 +47,5 @@ public bool LoadData()
     return true;
 }
 ```
+> Using `DataManagement.LoadData<T>()` to **Create Custom Load Method**
+> Checking if File Exists/Initialized and Create Data File
