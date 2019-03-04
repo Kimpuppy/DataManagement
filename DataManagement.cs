@@ -38,7 +38,7 @@ public class DataManagement
             // Read data to string
             string info = File.ReadAllText(Application.persistentDataPath + "/" + dataname + ".json");
 
-            // Encrypt data to AES256
+            // Decrypt data to AES256
             info = DecryptAES256(info);
 
             // Encrypt encrypted data
