@@ -26,7 +26,7 @@ public void SaveData()
     DataManagement.SaveData<DataClass>("CustomData", Data);
 }
 ```
-> Using `DataManagement.SaveData<T>()` to **Create Custom Save Method.**
+> Using `DataManagement.SaveData<T>(dataname, data)` to **Create Custom Save Method.**
 <br>
 
 ```csharp
@@ -51,5 +51,5 @@ public bool LoadData()
     return true;
 }
 ```
-> Using `DataManagement.LoadData<T>()` to **Create Custom Load Method.** 
+> Using `DataManagement.LoadData<T>(dataname, data)` to **Create Custom Load Method.** 
 > Checking if File Exists/Initialized and Create Data File.
