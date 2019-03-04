@@ -11,11 +11,13 @@ class DataClass
 };
 ```
 > **Add Custom Data Class**
+<br>
 
 ```csharp
 private DataClass Data;
 ```
 > **Create Data Properties**
+<br>
 
 ```csharp
 public void SaveData()
@@ -24,6 +26,7 @@ public void SaveData()
 }
 ```
 > Using `DataManagement.SaveData<T>()` to **Create Custom Save Method**
+<br>
 
 ```csharp
 public bool LoadData()
