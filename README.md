@@ -3,7 +3,7 @@ Save Data to JSON and Encryption/Decryption Data.
 ## About the Script
 - This script supports [`UnityEngine`](https://unity3d.com/).
 - This script using [`LitJSON`](https://github.com/LitJSON/litjson).
-- To use this script, add [`LitJSON`](https://github.com/LitJSON/litjson) on Asset folder.
+- To use this script, you must add [`LitJSON`](https://github.com/LitJSON/litjson) on Asset folder.
 ## How to Use
 ```csharp
 class DataClass
