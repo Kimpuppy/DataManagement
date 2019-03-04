@@ -22,7 +22,7 @@ private DataClass Data;
 ```csharp
 public void SaveData()
 {
-    DataManagement.SaveData<DataClass>("PlayerData", Data);
+    DataManagement.SaveData<DataClass>("CustomData", Data);
 }
 ```
 > Using `DataManagement.SaveData<T>()` to **Create Custom Save Method**
@@ -31,7 +31,7 @@ public void SaveData()
 ```csharp
 public bool LoadData()
 {
-    if(!DataManagement.LoadData<DataClass>("PlayerData", ref Data))
+    if(!DataManagement.LoadData<DataClass>("CustomData", ref Data))
     {
         // Check if Initialized Before
         if()
