@@ -1,4 +1,4 @@
-﻿//	Copyright (c) KimPuppy.
+//	Copyright (c) Kimpuppy.
 //	http://bakak112.tistory.com/
 
 using System;
