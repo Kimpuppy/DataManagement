@@ -51,4 +51,5 @@ public bool LoadData()
 }
 ```
 > Using `DataManagement.LoadData<T>()` to **Create Custom Load Method**
+<br>
 > Checking if File Exists/Initialized and Create Data File
