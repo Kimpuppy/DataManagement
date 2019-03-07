@@ -1,9 +1,14 @@
 # DataManagement
 Save Data to JSON and Encryption/Decryption Data.
+
 ## About the Script
 - This script supports [`UnityEngine`](https://unity3d.com/).
 - This script using [`LitJSON`](https://github.com/LitJSON/litjson).
 - To use this script, you must add [`LitJSON`](https://github.com/LitJSON/litjson) on Asset folder.
+
+## License
+- This project is distributed under the [DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE](https://en.wikipedia.org/wiki/WTFPL).
+
 ## How to Use
 ```csharp
 class DataClass
