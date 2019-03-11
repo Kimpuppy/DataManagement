@@ -53,7 +53,7 @@ public class DataManagement
         return false;
     }
 
-    public static void DeleteData<T>(string dataname, ref T data)
+    public static void DeleteData<T>(string dataname)
     {
         if(File.Exists(Application.persistentDataPath + "/" + dataname + ".json"))
             File.Delete(Application.persistentDataPath + "/" + dataname + ".json");
