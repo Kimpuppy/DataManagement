@@ -6,7 +6,6 @@ using System.Text;
 using System.Security.Cryptography;
 using UnityEngine;
 using System.IO;
-using LitJson;
 
 public class DataManagement
 {
